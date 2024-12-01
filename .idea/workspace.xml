@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f858b87-fe3d-4090-959f-052b69bcf2c3" name="Changes" comment="">
+    <list default="true" id="7f858b87-fe3d-4090-959f-052b69bcf2c3" name="Changes" comment="feat: ward and complete linkage hierarchical clustering">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/marinkay/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/marinkay/MainWardLinkage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/marinkay/MainWardLinkage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,21 +41,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/projects/hierarchical-clustering/src/main/resources/data/clustering&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/user/Desktop/projects/smile",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\Desktop\projects\hierarchical-clustering\src\main\resources\data\clustering" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.marinkay" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.MainCompleteLinkage">
     <configuration name="HieClusterin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.marinkay.another.HieClusterin" />
       <module name="hierarchical-clustering" />
@@ -70,7 +72,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HierarchicalClustering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MainCompleteLinkage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.marinkay.MainCompleteLinkage" />
+      <module name="hierarchical-clustering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.marinkay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainWardLinkage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.marinkay.MainWardLinkage" />
+      <module name="hierarchical-clustering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.marinkay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.github.marinkay.HierarchicalClustering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.marinkay.HierarchicalClustering" />
       <module name="hierarchical-clustering" />
       <extension name="coverage">
@@ -83,20 +111,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.marinkay.Main" />
-      <module name="hierarchical-clustering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.marinkay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="com.github.marinkay.MainTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.marinkay.MainTwo" />
       <module name="hierarchical-clustering" />
       <extension name="coverage">
@@ -111,9 +126,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.HierarchicalClustering" />
-        <item itemvalue="Application.MainTwo" />
+        <item itemvalue="Application.MainCompleteLinkage" />
+        <item itemvalue="Application.MainWardLinkage" />
+        <item itemvalue="Application.com.github.marinkay.HierarchicalClustering" />
+        <item itemvalue="Application.com.github.marinkay.MainTwo" />
         <item itemvalue="Application.HieClusterin" />
       </list>
     </recent_temporary>
@@ -131,7 +147,16 @@
       <workItem from="1732805731754" duration="4126000" />
       <workItem from="1732813557477" duration="2565000" />
       <workItem from="1732818978795" duration="1414000" />
+      <workItem from="1733034553382" duration="7079000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: ward and complete linkage hierarchical clustering">
+      <created>1733038223072</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733038223072</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +172,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: ward and complete linkage hierarchical clustering" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: ward and complete linkage hierarchical clustering" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -195,6 +224,16 @@
           <url>jar://$MAVEN_REPOSITORY$/com/apporiented/hierarchical-clustering/1.2.0/hierarchical-clustering-1.2.0.jar!/com/apporiented/algorithm/clustering/HierarchyBuilder.class</url>
           <line>47</line>
           <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/marinkay/MainWardLinkage.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/marinkay/Cluster.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
